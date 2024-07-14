@@ -99,7 +99,7 @@ let postid = [];
 let like_button = document.querySelectorAll('.like-button');
 like_button.forEach((button) => {
     button.addEventListener('click', function () {
-        
+        let idpost = parseInt(this.getAttribute('data-postid'))
     })
 })
 
