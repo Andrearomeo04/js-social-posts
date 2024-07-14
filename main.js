@@ -100,6 +100,9 @@ let like_button = document.querySelectorAll('.like-button');
 like_button.forEach((button) => {
     button.addEventListener('click', function () {
         let idpost = parseInt(this.getAttribute('data-postid'))
+        if (!postid.includes(idpost)) {
+            postid.push(idpost)
+        }
     })
 })
 
