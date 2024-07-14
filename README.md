@@ -20,11 +20,11 @@ Quando un pezzo di codice funziona, chiediamoci se possiamo scomporlo in funzion
 Buon lavoro!
 
 soluzione
-1.recupero tramite id la variabile dentro cui stamperò i post 
-2.creo un ciclo
-3.applico la destrutturazione per assegnare ad una variabile i le proprietà degli oggetti che mi servono
-concateno con il metodo innerhtml la variabile dentro cui stamperò i post con il codice html
-4.sostituisco gli elementi che saranno visibili nel post con le proprieta degli oggetti dell'array
+1.recupero tramite id la variabile dentro cui stamperò i post x
+2.creo un ciclo x
+3.applico la destrutturazione per assegnare ad una variabile i le proprietà degli oggetti che mi servono x
+concateno con il metodo innerhtml la variabile dentro cui stamperò i post con il codice html x
+4.sostituisco gli elementi che saranno visibili nel post con le proprieta degli oggetti dell'array x
 5.recupero il tasto mi piace tramite id e lo assegno ad una variabile
 6.creo un array che conterrà gli id dei post a cui ho messo mi piace
 7.creo un evento click
