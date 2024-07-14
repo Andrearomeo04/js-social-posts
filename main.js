@@ -102,6 +102,9 @@ like_button.forEach((button) => {
         let idpost = parseInt(this.getAttribute('data-postid'))
         if (!postid.includes(idpost)) {
             postid.push(idpost)
+            let like_counter = document.getElementById(`like-counter-${idpost}`)
+            let current_like = parseInt(like_counter.innerText)
+            like_counter.innerHTML = current_like + 1
         }
     })
 })
