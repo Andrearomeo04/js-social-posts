@@ -18,3 +18,17 @@ Prima scriviamo nei commenti la logica in italiano e poi traduciamo in codice.
 console.log() è nostro amico.
 Quando un pezzo di codice funziona, chiediamoci se possiamo scomporlo in funzioni più piccole.
 Buon lavoro!
+
+soluzione
+1.recupero tramite id la variabile dentro cui stamperò i post 
+2.creo un ciclo
+3.applico la destrutturazione per assegnare ad una variabile i le proprietà degli oggetti che mi servono
+concateno con il metodo innerhtml la variabile dentro cui stamperò i post con il codice html
+4.sostituisco gli elementi che saranno visibili nel post con le proprieta degli oggetti dell'array
+5.recupero il tasto mi piace tramite id e lo assegno ad una variabile
+6.creo un array che conterrà gli id dei post a cui ho messo mi piace
+7.creo un evento click
+8.creo una condizione che controlla se l'id non è presente nel nuovo array
+9.se l'id non è presente allora lo pusho dentro l'array
+10.assegno alla variabile che contiene il tasto mi piace la classe "like-button--liked"
+11.aumento il contatore di 1
