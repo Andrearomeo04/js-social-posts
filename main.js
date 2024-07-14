@@ -105,6 +105,9 @@ like_button.forEach((button) => {
             let like_counter = document.getElementById(`like-counter-${idpost}`)
             let current_like = parseInt(like_counter.innerText)
             like_counter.innerHTML = current_like + 1
+
+            this.classList.add('like-button--liked')
+            console.log(postid)
         }
     })
 })
